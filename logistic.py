@@ -10,4 +10,4 @@ logr.fit(X,y)
 
 #predict if tumor is cancerous where the size is 3.46mm:
 predicted = logr.predict(numpy.array([3.46]).reshape(-1,1))
-print(predicted) 
+print(predicted)
